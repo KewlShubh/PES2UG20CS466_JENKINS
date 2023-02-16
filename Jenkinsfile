@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // deployment code
-                sh 'cp PES2UG20CS66-1 ../'
+                sh 'cp PES2UG20CS466-1 ../'
                 echo 'deployment successful'
             }
         }
