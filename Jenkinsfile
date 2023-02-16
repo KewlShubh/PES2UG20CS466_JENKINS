@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // deployment code
-                sh 'mvn deploy'
+                sh 'cp PES2UG20CS66-1 ../'
                 echo 'deployment successful'
             }
         }
